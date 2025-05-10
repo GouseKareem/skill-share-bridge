@@ -1,4 +1,3 @@
-
 import React, { createContext, useState, useContext } from 'react';
 import { useAuth } from './AuthContext';
 
@@ -119,7 +118,7 @@ const initialTutors: Tutor[] = [
         studentName: 'Michael Brown',
         studentImage: 'https://i.pravatar.cc/150?img=11',
         rating: 5,
-        comment: 'Dr. Johnson explains complex concepts in a way that's easy to understand. Highly recommended!',
+        comment: 'Dr. Johnson explains complex concepts in a way that\'s easy to understand. Highly recommended!',
         date: '2023-05-15'
       },
       {
@@ -155,7 +154,7 @@ const initialTutors: Tutor[] = [
         studentName: 'Emma Davis',
         studentImage: 'https://i.pravatar.cc/150?img=23',
         rating: 5,
-        comment: 'Professor Martinez makes physics fun and interesting. I've improved significantly since working with him.',
+        comment: 'Professor Martinez makes physics fun and interesting. I\'ve improved significantly since working with him.',
         date: '2023-05-10'
       }
     ],
@@ -245,7 +244,7 @@ const initialTutors: Tutor[] = [
         studentName: 'Sophia Garcia',
         studentImage: 'https://i.pravatar.cc/150?img=25',
         rating: 5,
-        comment: 'Dr. Chen's industry experience makes his teaching practical and relevant. I've learned skills that directly apply to my job.',
+        comment: 'Dr. Chen\'s industry experience makes his teaching practical and relevant. I\'ve learned skills that directly apply to my job.',
         date: '2023-04-25'
       },
       {
@@ -258,7 +257,7 @@ const initialTutors: Tutor[] = [
         date: '2023-03-15'
       }
     ],
-    bio: 'With a background in both academia and industry, I bring a comprehensive perspective to teaching computer science. I focus on teaching not just theory, but also practical skills that are valuable in today's tech industry.'
+    bio: 'With a background in both academia and industry, I bring a comprehensive perspective to teaching computer science. I focus on teaching not just theory, but also practical skills that are valuable in today\'s tech industry.'
   }
 ];
 
